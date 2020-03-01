@@ -1,8 +1,11 @@
 # AWS-Mahout-Assignment
 
+https://aws.amazon.com/blogs/big-data/building-a-recommender-with-apache-mahout-on-amazon-elastic-mapreduce-emr/
+
 ## Introduction
 
-To demonstrate how to build an analytic job with Mahout on EMR, we’ll build a movie recommender. We will start with ratings given to movie titles by users in the MovieLens data set, which was compiled by the GroupLens team, and will use the “recommenditembased” example to find most-recommended movies for each user.
+This is to demonstrate how to build an analytic job with Mahout on EMR, we’ll build a movie recommender. 
+We will start with ratings given to movie titles by users in the MovieLens data set, which was compiled by the GroupLens team, and will use the “recommenditembased” example to find most-recommended movies for each user.
 
 ## Building a Recommender
 
@@ -50,6 +53,8 @@ make
 ./src/redis-server &
 ```
 + Copy hello.py 
+
+https://github.com/DulanGit/AWS-Mahout-Assignment/blob/master/hello.py
 
 + Start the web service.
 ```bash
